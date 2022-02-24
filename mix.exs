@@ -27,10 +27,10 @@ defmodule UeberauthWeixin.MixProject do
   # Run "mix help deps" to learn about dependencies.
   defp deps do
     [
-      {:ueberauth, "~> 0.6"},
-      {:jason, "~> 1.0"},
-      {:oauth2, "~> 2.0"},
-      {:ex_doc, "~> 0.20", only: :dev, runtime: false}
+      {:ueberauth, ">= 0.7.0"},
+      {:jason, ">= 1.3.0"},
+      {:oauth2, ">= 2.0.0"},
+      {:ex_doc, ">= 0.28.2", only: :dev, runtime: false}
     ]
   end
 
